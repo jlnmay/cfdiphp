@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="12345" fecha="2015-11-17T10:42:51" Moneda="MNX" TipoCambio="1.00" sello="JjarozMa7SftAjIyXsqfbWbDWOcLJXI7ag4i/ZGC+A81vbXmMKrv90TuISaqk6PVp2BG954ZZEft1I8toTjZJHlKk8XhayoLv2sK4EbU4khpYBbWmhpp7zf6wc/CsnXGa1WPTmm78l3LJbkZkIrjCPEYlT0sB1+TqY4ovZgFXfk=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000293" certificado="MIIE2jCCA8KgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyOTMwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNjE5MjI0M1oXDTE2MTAyNjE5MjI0M1owggFTMUkwRwYDVQQDE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMWEwXwYDVQQpE1hBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gQ09BSFVJTEEgWSBOVUVWTyBMRU9OIEFDMUkwRwYDVQQKE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMSUwIwYDVQQtExxBQUQ5OTA4MTRCUDcgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFNlcnZpZG9yMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlrI9loozd+UcW7YHtqJimQjzX9wHIUcc1KZyBBB8/5fZsgZ/smWS4Sd6HnPs9GSTtnTmM4bEgx28N3ulUshaaBEtZo3tsjwkBV/yVQ3SRyMDkqBA2NEjbcum+e/MdCMHiPI1eSGHEpdESt55a0S6N24PW732Xm3ZbGgOp1tht1wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAuoPXe+BBIrmJn+IGeI+m97OlP3RC4Ct3amjGmZICbvhI9BTBLCL/PzQjjWBwU0MG8uK6e/gcB9f+klPiXhQTeI1YKzFtWrzctpNEJYo0KXMgvDiputKphQ324dP0nzkKUfXlRIzScJJCSgRw9ZifKWN0D9qTdkNkjk83ToPgwnldg5lzU62woXo4AKbcuabAYOVoC7owM5bfNuWJe566UzD6i5PFY15jYMzi1+ICriDItCv3S+JdqyrBrX3RloZhdyXqs2Htxfw4b1OcYboPCu4+9qM3OV02wyGKlGQMhfrXNwYyj8huxS1pHghEROM2Zs0paZUOy+6ajM+Xh0LX2w==" subTotal="1000.00" total="953.53" tipoDeComprobante="ingreso" metodoDePago="Transferencia" LugarExpedicion="Sucurcal 1" NumCtaPago="1234">
+  <cfdi:Emisor rfc="AAD990814BP7" nombre="DEMO">
+    <cfdi:DomicilioFiscal calle="Villa de las Flores" noExterior="110" noInterior="1" colonia="Centro" municipio="Leon" estado="Leon" pais="México" codigoPostal="67589"/>
+    <cfdi:RegimenFiscal Regimen="Actividad Empresarial"/>
+    <cfdi:RegimenFiscal Regimen="Otro Regimen"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="EAM001231D51" nombre="Envasadoras de aguas en México, S. de R.L de C.V">
+    <cfdi:Domicilio calle="Av. La Silla" noExterior="7707" noInterior="1" colonia="Parque industial La Silla" municipio="Guadalupe" estado="Nuevo León" pais="México" codigoPostal="67190"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto noIdentificacion="ABC" cantidad="1.00" unidad="N/A" descripcion="SERVICIO DE ASESORIA" valorUnitario="1000.00" importe="1000.00"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="206.67" totalImpuestosTrasladados="160.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="106.67"/>
+      <cfdi:Retencion impuesto="ISR" importe="100.00"/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="160.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>
