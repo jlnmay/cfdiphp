@@ -147,7 +147,7 @@
 
         echo "-Validando archivos .cer y .key...";
         
-        if(!CFDValidarKeyCer($key, $cer, $password, "SSL\\"))
+        if(!CFDValidarKeyCer($key, $cer, $password))
         {
             echo "Ocurrio el siguiente error: ".$CFDSetting->LastError;
             return;
