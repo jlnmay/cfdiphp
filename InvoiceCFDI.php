@@ -7,6 +7,8 @@
 	 * Esta clase es open source puede utilizar en sus proyectos libremente.
 	 *
 	 * Historial de cambios:
+	 * Julián May 		Feb, 2016 	- Se corrigen bugs menores. 
+     *	 							- Se ha probado la clase para generar documentos cfdi para transportistas.
 	 * Arturo Ramos		Dic, 2015	- Se definen de forma global las rutas a las diferentes carpetas de salida; esto
 	 * 								  soluciona el problema de las rutas con ./ o .\\ en diferentes entornos.
 	 * 								- Si no se encuentra openssl.exe en la carpeta SSL se asume que se tiene acceso de

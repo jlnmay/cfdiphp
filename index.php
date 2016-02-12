@@ -95,9 +95,16 @@
         $cfd->Impuestos->Retenciones->Add("IVA", 106.67);
         $cfd->Impuestos->Retenciones->Add("ISR", 100.00);
         */
-        //   FINALZIA IMPUESTOS PARA RETENCIONES  
+        // FINALIzA IMPUESTOS PARA RETENCIONES  
 
+        /*
+        // INICIA IMPUESTOS PARA TRANSPORTISTAS %4 DEL SUBTOTAL
+        $cfd->Impuestos->Retenciones->Add("IVA", 1052.65);
+        // FINALIZA IMPUESTOS PARA TRANSPORTISTAS
+        */
+        
         $cfd->Impuestos->Traslados->Add("IVA", 16.00, 1210.56);
+        
         
         $concept = $cfd->Conceptos->Add(1.00, "SERVICIO DE ASESORIA", 1000.00, 1000.00);
         $concept->NoIdentificacion = "ABC";
@@ -129,6 +136,7 @@
         $concept->NoIdentificacion = "CCIRC-98";
         $concept->Unidad = "Pza";
         
+
         // INICIA CONCEPTO DE PRUEBA PARA GENERAR UN ARRENDAMIENTO 
         /*
         $concept = $cfd->Conceptos->Add(1.00, "RENTA MENSUAL CORRESPONDIENTE AL MES DE SEPTIEMBRE DE 2015", 1000.00, 1000.00);
@@ -136,8 +144,15 @@
         $concept->Unidad = "N/A";
         $concept->CuentaPredial->Numero = "123456";
         */
-        //   FINALIZA CONCEPTO DE PRUEBA PARA GENERAR UN ARRENDAMIENTO 
+        // FINALIZA CONCEPTO DE PRUEBA PARA GENERAR UN ARRENDAMIENTO 
 
+        /*
+        // INICIA CONCEPTO DE PRUEBA PARA GENERAR UN DOCUMENTO CFDI PARA TRANSPORTISTAS
+        $concept = $cfd->Conceptos->Add(1.00, "SERVICIO DE TRANSPORTE", 1000.00, 1000.00);
+        $concept->NoIdentificacion = "CCIRC-98";
+        $concept->Unidad = "N/A";
+        // FINALIZA CONCEPTO DE PRUEBA PARA GENERAR UN DOCUMENTO CFDI PARA TRANSPORTISTAS
+        */
         echo "-Generando CFD...Versión ".$GLOBALS["CFDVersions"]->ToLongString($GLOBALS["CFDVersions"]->FromString($cfd->Version)); 
         echo "<br/>";
         
@@ -200,5 +215,7 @@
         }
         else 
             echo "-Validando CFD OK....";
+
+        
         
 ?>
